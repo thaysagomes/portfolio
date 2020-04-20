@@ -1,0 +1,35 @@
+$bg-container: #F9F9F9;
+
+.home {
+    padding-bottom: 3%;
+}
+
+.container {
+    background-color: $bg-container;
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-gap: 25px;
+    padding: 25px;
+
+    @media (max-width: 600px) { 
+        grid-template-columns: 1fr; 
+    }
+
+    .container-child {
+        height: 350px;
+        img {
+           width: 100%;
+        }
+    }
+
+    .one {
+
+       // background: url('../../assets/visumed.png') no-repeat;
+       // background-size: cover;
+    }
+
+
+}

@@ -1,0 +1,63 @@
+@import '../../global.scss';
+
+$bg-color: #E3ADB1;
+$nav-color: #FEEEEE;
+
+
+.header {
+    background-color: $bg-color;
+       
+    nav {
+        padding-top: 3.5%;
+        padding-bottom: 4%;
+        text-align: center;
+        font: { 
+            family: $font;
+            weight: 100;
+            size: 15px;
+        }
+        text-transform: lowercase;
+
+        .links {
+            padding-top: 3%;
+            display: block;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            letter-spacing: 0.095em;
+            
+            .projects {
+                margin-left: 3%;
+                margin-right: 5%;
+            }
+
+            .curriculum {
+                margin-left: 5%;
+            }
+
+            a {
+                text-decoration: none;
+                color: $nav-color;
+
+                &:hover {
+                    font-weight: 400;
+                }
+            }
+
+        }
+    }
+
+    @media (max-width: 600px) { 
+
+        .logo {
+            width: 70%;
+            margin-bottom: 5%;
+            margin-top: 2%;
+        } 
+
+        .links {
+            padding-bottom: 5%;
+        }
+    }
+
+}
