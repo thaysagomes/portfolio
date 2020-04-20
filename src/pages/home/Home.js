@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './home.scss';
 import visumed from '../../assets/visumed.svg';
+import mainhas from '../../assets/mainhas.svg';
 import fem from '../../assets/fem.svg';
 import frontloops from '../../assets/frontloops.svg';
 
@@ -24,7 +25,7 @@ export default class Home extends Component {
 
           <a href="/design">
             <div className="container-child design">
-              <img src={visumed} />
+              <img src={mainhas} />
               <div className="overlay">
                 <div className="description">
                   <h2>UI/UX Design</h2>
