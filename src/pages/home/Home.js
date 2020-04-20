@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './home.scss';
 import visumed from '../../assets/visumed.svg';
 import fem from '../../assets/fem.svg';
+import frontloops from '../../assets/frontloops.svg';
 
 export default class Home extends Component {
   render() {
@@ -10,7 +11,7 @@ export default class Home extends Component {
         <div className="container">
 
           <a href="/design">
-            <div className="container-child one">
+            <div className="container-child design">
               <img src={visumed} />
               <div className="overlay">
                 <div className="description">
@@ -21,8 +22,32 @@ export default class Home extends Component {
             </div>
           </a>
 
+          <a href="/design">
+            <div className="container-child design">
+              <img src={visumed} />
+              <div className="overlay">
+                <div className="description">
+                  <h2>UI/UX Design</h2>
+                  <p>Mainhas App</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="/design">
+            <div className="container-child design">
+              <img src={visumed} />
+              <div className="overlay">
+                <div className="description">
+                  <h2>UI/UX Design</h2>
+                  <p>Filmow</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
           <a href="/coding">
-            <div className="container-child two">
+            <div className="container-child coding">
               <img src={fem} />
               <div className="overlay">
                 <div className="description">
@@ -33,20 +58,31 @@ export default class Home extends Component {
             </div>
           </a>
 
-            <div className="container-child">
-              <h2>container 3</h2>
+          <a href="/coding">
+            <div className="container-child frontloops">
+              <img src={frontloops} />
+              <div className="overlay">
+                <div className="description">
+                  <h2>HTML/CSS</h2>
+                  <p>Frontloops</p>
+                </div>
+              </div>
             </div>
-              <div className="container-child">
-                <h2>container 4</h2>
-              </div>
+          </a>
 
-              <div className="container-child">
-                <h2>container 5</h2>
+          <a href="/design">
+            <div className="container-child design">
+              <img src={visumed} />
+              <div className="overlay">
+                <div className="description">
+                  <h2>Ilustração</h2>
+                </div>
               </div>
-              <div className="container-child">
-                <h2>container 6</h2>
-              </div>
+            </div>
+          </a>
+
         </div>
+
       </div>  
     )
   }

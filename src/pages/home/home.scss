@@ -1,9 +1,8 @@
-@import '../../global.scss';
-
 $bg-container: #F9F9F9;
 
 .home {
     padding-bottom: 3%;
+
 }
 
 .container {
@@ -50,7 +49,7 @@ $bg-container: #F9F9F9;
             letter-spacing: 0.135em;
             text-transform: uppercase;
                 font: {
-                    family: $font;
+                    family: 'Montserrat', sans-serif;
                     weight: 400;
                     size:18px;
                 }
@@ -64,7 +63,7 @@ $bg-container: #F9F9F9;
             margin-left: 20px;
             margin-top: 4%;
                 font: {
-                    family: $font;
+                    family: 'Montserrat', sans-serif;
                     weight: 400;
                     size: 18px;
                 }
@@ -88,14 +87,20 @@ $bg-container: #F9F9F9;
 
     }
 
-    .one .description {
+    .frontloops .description {
 
+        @media (max-width: 600px) { 
+            left: 28%;
+        }
+    }
+
+    .design .description {
         @media (max-width: 600px) { 
             top: 42%;
         }
     }
 
-    .two .description {
+    .coding .description {
         top: 45%;
         left: 25%;
 
