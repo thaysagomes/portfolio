@@ -11,7 +11,7 @@ export default class Home extends Component {
       <div className="home">
         <div className="container">
 
-          <a href="/design">
+          <a href="/visumed">
             <div className="container-child design">
               <img src={visumed} />
               <div className="overlay">
@@ -23,7 +23,7 @@ export default class Home extends Component {
             </div>
           </a>
 
-          <a href="/design">
+          <a href="/mainhas">
             <div className="container-child design">
               <img src={mainhas} />
               <div className="overlay">
@@ -35,7 +35,7 @@ export default class Home extends Component {
             </div>
           </a>
 
-          <a href="/design">
+          <a href="/filmow">
             <div className="container-child design">
               <img src={visumed} />
               <div className="overlay">
@@ -47,7 +47,7 @@ export default class Home extends Component {
             </div>
           </a>
 
-          <a href="/coding">
+          <a href="/fem">
             <div className="container-child coding">
               <img src={fem} />
               <div className="overlay">
@@ -59,7 +59,7 @@ export default class Home extends Component {
             </div>
           </a>
 
-          <a href="/coding">
+          <a href="/frontloops">
             <div className="container-child frontloops">
               <img src={frontloops} />
               <div className="overlay">
@@ -71,7 +71,7 @@ export default class Home extends Component {
             </div>
           </a>
 
-          <a href="/design">
+          <a href="/illustration">
             <div className="container-child design">
               <img src={visumed} />
               <div className="overlay">

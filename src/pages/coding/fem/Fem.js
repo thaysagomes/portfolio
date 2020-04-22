@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 // import { Container } from './styles';
 
-export default class Coding extends Component {
+export default class Fem extends Component {
   render() {
     return <div />;
   }

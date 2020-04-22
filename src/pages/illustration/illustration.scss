@@ -1,0 +1,15 @@
+$bg-container: #F9F9F9;
+
+.container {
+    background-color: $bg-container;
+    width: 75%;
+    margin: 0 auto;
+    display:flex;
+
+
+    @media (max-width: 600px) { 
+        width: 65%;
+    }
+
+}
+
