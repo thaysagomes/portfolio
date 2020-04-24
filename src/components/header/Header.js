@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
         <div className="header">
               <nav>
-              <img src={logo} className="logo"/>
+              <a href="/"><img src={logo} className="logo"/></a>
               <div className="links">
               <a href="/" className="projects">Projetos</a>
               <a href="/about" className="about">Sobre mim</a>

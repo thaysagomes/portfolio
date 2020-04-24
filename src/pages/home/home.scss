@@ -7,13 +7,14 @@ $bg-container: #F9F9F9;
 
 .container {
     background-color: $bg-container;
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr, 1fr;
-    grid-gap: 25px;
-    padding: 25px;
+    grid-gap: 1.5rem;
+    padding: 1.5rem;
+    //padding: 25px;
 
     @media (max-width: 600px) { 
         grid-template-columns: 1fr; 
@@ -21,7 +22,7 @@ $bg-container: #F9F9F9;
     }
 
     .container-child {
-        height: 350px;
+        height: 20.5rem;
         position: relative;
         display: flex;
         

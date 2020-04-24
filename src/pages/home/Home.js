@@ -16,7 +16,7 @@ export default class Home extends Component {
               <img src={visumed} />
               <div className="overlay">
                 <div className="description">
-                  <h2>UI/UX Design</h2>
+                  <h2>UX/UI Design</h2>
                   <p>Visumed App</p>
                 </div>
               </div>
@@ -28,7 +28,7 @@ export default class Home extends Component {
               <img src={mainhas} />
               <div className="overlay">
                 <div className="description">
-                  <h2>UI/UX Design</h2>
+                  <h2>UX/UI Design</h2>
                   <p>Mainhas App</p>
                 </div>
               </div>
@@ -40,7 +40,7 @@ export default class Home extends Component {
               <img src={visumed} />
               <div className="overlay">
                 <div className="description">
-                  <h2>UI/UX Design</h2>
+                  <h2>UX/UI Design</h2>
                   <p>Filmow</p>
                 </div>
               </div>
