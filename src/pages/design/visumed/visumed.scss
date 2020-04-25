@@ -112,6 +112,24 @@ $span-color: #5888C3;
                 margin:0 auto;
             }
 
+            .icon {
+                font-size: 1.5rem;
+                color: #57595c;
+            }
+
+            .study, .personas, .onboarding {
+                width: 80%;
+                height: 80%;
+                object-fit: cover;
+            }
+
+            .source {
+                font-size: 0.7rem;
+                line-height: 100%;
+                margin-bottom: 6%;
+                text-align: left;
+            }
+
             .process-info span {
                 font-weight: 400;
                 color: $span-color;
@@ -123,6 +141,13 @@ $span-color: #5888C3;
                 margin-bottom: 6%;
             }
 
+            .line1 {
+                opacity: .3;
+                width: 90%;
+                margin-bottom: 6%;
+                margin-top: 6%;
+            }
+
             .section-title {
                 margin-bottom: 2%;
             }
@@ -130,6 +155,40 @@ $span-color: #5888C3;
             .process-info {
                 margin-bottom: 6%;
             }
+
+            .functionality {
+                margin-bottom: 1%;
+            }
+
+            .prototype {
+                display: flex;
+                align-items: flex-end;
+
+                @media (max-width: 600px) { 
+                    flex-direction: column;
+                    align-items: center;    
+                }
+
+            }
+
+            .iframe-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+              }
+              
+              /* Then style the iframe to fit in the container div with full height and width */
+              .responsive-iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+              }
+            
         }
     
     }

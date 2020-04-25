@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import './visumed.scss';
 import header from '../../../assets/visumed-bg.svg';
+import info from '../../../assets/info.svg';
+import personas from '../../../assets/personas.svg';
+import onboarding from '../../../assets/onboarding.svg';
+import functionalities from '../../../assets/functionalities.svg';
+import campus1 from '../../../assets/campus1.jpg';
+import campus2 from '../../../assets/campus2.jpg';
+import campus from '../../../assets/campus.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBraille, faQrcode, faPills} from '@fortawesome/free-solid-svg-icons'
 
 export default class Visumed extends Component {
   render() {
@@ -30,6 +39,7 @@ export default class Visumed extends Component {
               <p className="section-info">Figma</p>
             </div>
           </div>
+
           <div className="process">
 
             <hr className="line"/>
@@ -39,23 +49,74 @@ export default class Visumed extends Component {
             <hr className="line"/>
 
             <h3 className="section-title">Pesquisa</h3>
-            <p className="process-info">Recursos disponíveis</p>
-            <p className="process-info">Persona</p>
-            <p className="process-info">Pain points?</p>
+            <p className="process-info">Primeiramente, buscamos quais são os recursos disponíveis direcionados para os
+            deficientes visuais, que têm o objetivo de divulgar informações sobre medicamentos. Encontramos 3 fontes (<span>e o motivo delas 
+            não suprirem a necessidade adequadamente</span>):</p>
+
+            <FontAwesomeIcon className="icon" icon={faPills} />
+            <p className="process-info section-title"><span>Bula especial</span></p>
+            <p className="process-info">De acordo com a ANVISA, o deficiente visual poderá ter acesso à uma bula especial a partir 
+            do contato com o Serviço de Atendimento ao Consumidor da empresa responsável pelo medicamento e esperar até dez dias úteis 
+            para o recebimento da bula, podendo causar um potencial dano ao tratamento e saúde do paciente por não ser um documento facilmente acessível.</p>
+            
+            <FontAwesomeIcon className="icon" icon={faBraille} />
+            <p className="process-info section-title"><span>Braille</span></p>
+            <p className="process-info" className="process-info">Apesar das medidas tomadas pelos laboratórios em promover a acessibilidade a partir do braile nas embalagens, 
+            percebe-se a ineficiência em resolver o real problema, visto que a maioria dos deficientes não sabem ler em Braille. 
+            Em uma entrevista com deficientes visuais, realizada por Rebouças et al. (2016), foram encontradas as seguintes informações:</p>
+            <img src={info} className="study"/>
+            <p className="process-info">Uma das sugestões presentes no estudo, fornecidas para mitigar o problema, seria o acesso à <span>bula em áudio</span>.</p>
+            <p className="source">Fonte: REBOUÇAS, Cristiana Brasil de Almeida et al. Evaluation of quality of life of visually impaired. Revista Brasileira de Enfermagem, v. 69, n. 1, p. 72-78, 2016.</p>
+            
+            <FontAwesomeIcon className="icon" icon={faQrcode} />
+            <p className="process-info section-title"><span>QR Code</span></p>
+            <p className="process-info">Também pode ser encontrado o QR Code nas embalagens dos medicamentos, <span>mas não em todos</span>. E assim como o Braille, não apresenta
+            grande eficiência na acessibilidade.</p>
             <hr className="line"/>
+
+            <h3 className="section-title">Personas</h3>
+            <img className="personas" src={personas}/>
+            <hr className="line"/>
+
+            <h3 className="section-title">Funcionalidades do aplicativo</h3>
+            <p className="process-info functionality"><span>•</span> Reconhecimento de texto para identificação do medicamento;</p>
+            <p className="process-info functionality"><span>•</span> Pesquisa por um medicamento, a partir da busca escrita ou por voz;</p>
+            <p className="process-info functionality"><span>•</span> Encontrar farmácias próximas;</p>
+            <p className="process-info functionality"><span>•</span> Marcar lembretes para tomar medicamentos.</p>
+            <hr className="line1"/>
 
             <h3 className="section-title">Prototipação</h3>
             <p className="process-info">Pensando na acessibilidade do público alvo, os elementos e o fluxo do protótipo
-            foRAM inspirados em aplicativos bem estabelecidos no mercado como o Be My Eyes.</p>
+              foram inspirados em aplicativos bem estabelecidos no mercado como o Be My Eyes.</p>
+            <div className="prototype">
+              <img className="onboarding" src={onboarding}/>
+              <p className="process-info">Onboarding do aplicativo, explicando como deve ser utilizado, juntamente com os botões de 
+              cadastro ou login.</p>
+            </div>
+            <div className="prototype">
+              <p className="process-info">Principais funcionalidades: tela de entrada onde se observa tudo o que é possível realizar no aplicativo;
+              a tela de pesquisa do medicamento com a função de ouvir a bula; e por último, a de farmácias próximas, ordenadas pela menor distância 
+              e com a possibilidade de ouvir a rota.</p>
+              <img className="onboarding" src={functionalities}/>
+            </div>
             <hr className="line"/>
 
-            <h3 className="section-title">Style guide</h3>
-            <p className="process-info">UI Design</p>
-            <hr className="line"/>
+            <h3 className="section-title">Depoimentos</h3>
+              <p className="process-info">Em uma ida ao Instituto de Cegos do Recife, coletamos depoimentos para entender melhor o potencial usuário do aplicativo.</p>
+            <div className="iframe-container">
+              <iframe className="responsive-iframe" src="https://player.vimeo.com/video/410603272" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <hr className="line1"/>
 
             <h3 className="section-title">Campus Mobile</h3>
-            <p className="process-info">Aprofundamento no projeto e estratégias</p>
-            <hr className="line"/>
+            <p className="process-info">A Campus foi um momento onde pudemos aprimorar nosso projeto com boas ideias, a partir da mentoria de especialistas
+            no assunto. E principalmente, onde pudemos sermos ouvidos e onde colocamos nossa perspectiva para o mundo, buscando promover a qualidade de vida
+            das pessoas por meio do design e da tecnologia.</p>
+            <img className="onboarding" src={campus1}/>
+            <img className="onboarding" src={campus2}/>
+            <img className="onboarding" src={campus}/>
+            <p>Obrigada. ❤</p>
+            <hr className="line1"/>
 
 
 
