@@ -62,7 +62,7 @@ $span-color: #5CA880;
             }
         }
 
-        .mainhas-info {
+        .mainhas-infos {
             font-size: 0.9rem;
             letter-spacing: 0.055em;
             
@@ -81,23 +81,26 @@ $span-color: #5CA880;
             width: 100%;
             grid-gap: 10%;
 
-            .project-infos {
+            .mainhas-infos {
                 margin-top: 20%;
-                margin-bottom: 15%;
+                margin-bottom: 30%;
                 line-height: 150%;
 
                 p:nth-child(6), p:nth-child(8) {
                     margin-bottom: 5%;
                 }
 
+                
+            @media (max-width: 600px) { 
+                margin-top: 0%;
             }
+        }
 
             @media (max-width: 600px) { 
                 grid-template-columns: 1fr; 
 
-                .info {
-                    margin-top: 0;
-                    margin-bottom: 30%;
+                .mainhas-info {
+                    margin-top: 0%;
                 }
             }
         }
@@ -109,11 +112,6 @@ $span-color: #5CA880;
             p {
                 width: 70%;
                 margin:0 auto;
-            }
-
-            .icon {
-                font-size: 1.5rem;
-                color: #57595c;
             }
 
             .study, .personas, .onboarding {
@@ -156,17 +154,6 @@ $span-color: #5CA880;
 
             .functionality {
                 margin-bottom: 1%;
-            }
-
-            .prototype {
-                display: flex;
-                align-items: flex-end;
-
-                @media (max-width: 600px) { 
-                    flex-direction: column;
-                    align-items: center;    
-                }
-
             }
 
             .iframe-mainhas {

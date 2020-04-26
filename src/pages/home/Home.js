@@ -53,8 +53,8 @@ export default class Home extends Component {
               <img src={fem} />
               <div className="overlay">
                 <div className="description">
-                  <h2>HTML/CSS</h2>
-                  <p>Front-end mentor</p>
+                  <h2>Front-end</h2>
+                  <p>Frontend mentor</p>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default class Home extends Component {
               <img src={frontloops} />
               <div className="overlay">
                 <div className="description">
-                  <h2>HTML/CSS</h2>
+                  <h2>Front-end</h2>
                   <p>Frontloops</p>
                 </div>
               </div>

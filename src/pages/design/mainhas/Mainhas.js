@@ -28,7 +28,7 @@ export default class Mainhas extends Component {
               possibilitando um espaço onde podem criar uma rede de apoio que possam oferecer e receber suporte emocional, compartilhar sentimentos, dificuldades
               e experiências.</p>
           </div>
-          <div className="project-infos">  
+          <div className="mainhas-infos">  
             <h3 className="section-title">Participantes</h3>
             <p className="mainhas-info">Thaysa Gomes <span>• UX/UI Design</span></p>
             <p className="mainhas-info">João Mouzinho <span>• Programação</span></p>
@@ -38,7 +38,7 @@ export default class Mainhas extends Component {
 
             <h3 className="section-title">Ferramenta</h3>
             <p className="mainhas-info">Figma</p>
-            <h3 className="section-title">Duração do projeto</h3>
+            <h3 className="section-title duration-project">Duração do projeto</h3>
               <p className="visumed-info">2 dias</p>
           </div>
         </div>
