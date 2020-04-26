@@ -3,6 +3,7 @@ import './home.scss';
 import visumed from '../../assets/visumed.svg';
 import mainhas from '../../assets/mainhas.svg';
 import fem from '../../assets/fem.svg';
+import illustration from '../../assets/illustration.svg';
 import frontloops from '../../assets/frontloops.svg';
 
 export default class Home extends Component {
@@ -73,7 +74,7 @@ export default class Home extends Component {
 
           <a href="/illustration">
             <div className="container-child design">
-              <img src={visumed} />
+              <img src={illustration} />
               <div className="overlay">
                 <div className="description">
                   <h2>Ilustração</h2>

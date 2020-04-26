@@ -36,7 +36,7 @@ $span-color: #5888C3;
             size: 1rem;
         }
     
-        .project-title {
+        .visumed-title {
             margin-bottom: 5%;
             font-size: 2rem;
             font-weight: 500;
@@ -54,7 +54,7 @@ $span-color: #5888C3;
             color: $title-color;
         }
 
-        .section-description {
+        .visumed-description {
             line-height: 170%;
 
             span {
@@ -63,7 +63,7 @@ $span-color: #5888C3;
             }
         }
 
-        .section-info {
+        .visumed-info {
             font-size: 0.9rem;
             letter-spacing: 0.055em;
             
@@ -87,7 +87,7 @@ $span-color: #5888C3;
                 margin-bottom: 15%;
                 line-height: 150%;
 
-                p:nth-child(4) {
+                p:nth-child(4), p:nth-child(6) {
                     margin-bottom: 5%;
                 }
 
@@ -130,9 +130,12 @@ $span-color: #5888C3;
                 text-align: left;
             }
 
-            .process-info span {
-                font-weight: 400;
-                color: $span-color;
+            .visumed-process {
+                margin-bottom: 6%;
+                span {
+                    font-weight: 400;
+                    color: $span-color;
+                    }
             }
 
             .line {
@@ -150,10 +153,6 @@ $span-color: #5888C3;
 
             .section-title {
                 margin-bottom: 2%;
-            }
-
-            .process-info {
-                margin-bottom: 6%;
             }
 
             .functionality {

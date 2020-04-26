@@ -1,0 +1,196 @@
+$bg-container: #F9F9F9;
+$title-color: #262626;
+$content-color: #525252;
+$span-color: #5CA880;
+
+.container-page {
+    background: $bg-container;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+
+    .header-page {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content {
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $content-color;
+        font-weight: 300;
+        line-height: 170%;
+
+        font: {
+            family: 'Montserrat', sans-serif;
+            size: 1rem;
+        }
+    
+        .project-title {
+            margin-bottom: 5%;
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: 0.025em;
+            color: $title-color;
+        }
+
+        .section-title {
+            margin-bottom: 1%;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.110em;
+            font-weight: 600;
+            color: $title-color;
+        }
+
+        .mainhas-description {
+            line-height: 170%;
+
+            span {
+                font-weight: 400;
+                color: $span-color;
+            }
+        }
+
+        .mainhas-info {
+            font-size: 0.9rem;
+            letter-spacing: 0.055em;
+            
+            span {
+                font-weight: 500;
+                font-size: 0.8rem;
+                color: $span-color;
+            }
+
+        }
+
+        .intro {
+            //border:1px solid red;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            width: 100%;
+            grid-gap: 10%;
+
+            .project-infos {
+                margin-top: 20%;
+                margin-bottom: 15%;
+                line-height: 150%;
+
+                p:nth-child(6), p:nth-child(8) {
+                    margin-bottom: 5%;
+                }
+
+            }
+
+            @media (max-width: 600px) { 
+                grid-template-columns: 1fr; 
+
+                .info {
+                    margin-top: 0;
+                    margin-bottom: 30%;
+                }
+            }
+        }
+
+        .process {
+            width: 100%;
+            text-align: center;
+
+            p {
+                width: 70%;
+                margin:0 auto;
+            }
+
+            .icon {
+                font-size: 1.5rem;
+                color: #57595c;
+            }
+
+            .study, .personas, .onboarding {
+                width: 80%;
+                height: 80%;
+                object-fit: cover;
+            }
+
+            .source {
+                font-size: 0.7rem;
+                line-height: 100%;
+                margin-bottom: 6%;
+                text-align: left;
+            }
+
+            .mainhas-process {
+                margin-bottom: 6%;
+                span {
+                    font-weight: 400;
+                    color: $span-color;
+                    }
+            }
+
+            .line {
+                opacity: .3;
+                width: 90%;
+                margin-bottom: 6%;
+            }
+
+            .line1 {
+                opacity: .3;
+                width: 90%;
+                margin-bottom: 6%;
+                margin-top: 6%;
+            }
+
+            .section-title {
+                margin-bottom: 2%;
+            }
+
+            .functionality {
+                margin-bottom: 1%;
+            }
+
+            .prototype {
+                display: flex;
+                align-items: flex-end;
+
+                @media (max-width: 600px) { 
+                    flex-direction: column;
+                    align-items: center;    
+                }
+
+            }
+
+            .iframe-mainhas {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+               padding-top: 0%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+              }
+              
+              /* Then style the iframe to fit in the container div with full height and width */
+              .responsive-iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+              }
+            
+        }
+    
+    }
+
+
+}
+
