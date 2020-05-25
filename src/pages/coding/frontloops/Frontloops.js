@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './frontloops.scss';
 import header from '../../../assets/frontloops-bg.svg';
-import challenge from '../../../assets/challenge.jpg';
+import step2 from '../../../assets/Step2.png';
+import step3 from '../../../assets/Step3.png';
+import step4 from '../../../assets/Step4.png';
 
 export default class Frontloops extends Component {
   render() {
@@ -25,12 +27,31 @@ export default class Frontloops extends Component {
           <div className="process">
 
             <hr className="line" />
-            <h3 className="challenge-title">Step 1</h3>
+            <h3 className="challenge-title">Step 2</h3>
             <p className="fem-label"><span className="html">HTML</span> <span className="css">CSS</span></p>
-            <img className="challenge" src={challenge} />
+            <img className="challenge" src={step2} />
             <div className="source">
-              <a href=""><button className="website">Ver online</button></a>
-              <a href="https://github.com/thaysagomes/frontloops-challenges/tree/master/Step%201"><button className="github">Ver código</button></a>
+              <a href="https://frontloopschallenge-step2.netlify.app/" target="_blank"><button className="website">Ver online</button></a>
+              <a href="https://github.com/thaysagomes/frontloops-challenges/tree/master/Step%202" target="_blank"><button className="github">Ver código</button></a>
+            </div>
+            <hr className="line" />
+
+            <h3 className="challenge-title">Step 3</h3>
+            <p className="fem-label"><span className="html">HTML</span> <span className="css">CSS</span></p>
+            <img className="challenge" src={step3} />
+            <div className="source">
+              <a href="https://frontloopschallenge-step3.netlify.app" target="_blank"><button className="website">Ver online</button></a>
+              <a href="https://github.com/thaysagomes/frontloops-challenges/tree/master/Step%203" target="_blank"><button className="github">Ver código</button></a>
+            </div>
+            <hr className="line" />
+
+            
+            <h3 className="challenge-title">Step 4</h3>
+            <p className="fem-label"><span className="html">HTML</span> <span className="css">CSS</span></p>
+            <img className="challenge" src={step4} />
+            <div className="source">
+              <a href="https://frontloopschallenges-step4.netlify.app/" target="_blank"><button className="website">Ver online</button></a>
+              <a href="https://github.com/thaysagomes/frontloops-challenges/tree/master/Step%204" target="_blank"><button className="github">Ver código</button></a>
             </div>
             <hr className="line" />
 

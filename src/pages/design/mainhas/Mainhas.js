@@ -78,7 +78,7 @@ export default class Mainhas extends Component {
           <hr className="line1"/>
 
           <h3 className="section-title">Prototipação</h3>
-          <p className="mainhas-process">De início, achamos importante conter algumas definições antes do usuário entrar no aplicativo, para que todos estejam na mesma página quanto aos conceitos
+          <p className="mainhas-process">De início, achamos importante conter algumas definições antes da usuária entrar no aplicativo, para que todas estejam na mesma página quanto aos conceitos
             utilizados, como também para saber das funcionalidades disponíveis.</p>
           <img src={mainhasonboarding} className="onboarding"/>
           <img src={mainhasonboarding1} className="onboarding"/>
@@ -88,13 +88,6 @@ export default class Mainhas extends Component {
           <img src={mainhasfunctionalities1} className="onboarding"/>
 
           <hr className="line"/>
-
-          <h3 className="section-title">Pitch</h3>
-            <p className="mainhas-process">Esse é o pitch que foi apresentado durante o evento.</p>
-          <div className="iframe-mainhas">
-          <iframe src="https://player.vimeo.com/video/411928770" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          </div>
-          <hr className="line1"/>
 
           <h3 className="section-title">Hackathon - Conexões Periféricas</h3>
           <p className="mainhas-process">Foi meu primeiro projeto trabalhando com uma perspectiva centrada no UX design, visto que anteriormente, eu apenas gostava de fazer as telas bonitas de uma interface sem pensar nos importantes propósitos. Tivemos que

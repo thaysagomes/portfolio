@@ -16,9 +16,14 @@ $bg-container: #F9F9F9;
     padding: 1.5rem;
     //padding: 25px;
 
-    @media (max-width: 600px) { 
+    @media (max-width: 700px) { 
         grid-template-columns: 1fr; 
         width: 65%;
+    }
+
+    @media (min-width: 701px) and (max-width: 1230px) { 
+        grid-template-columns: 1fr 1fr; 
+        width: 90%;
     }
 
     .container-child {

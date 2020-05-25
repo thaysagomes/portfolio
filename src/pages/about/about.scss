@@ -1,0 +1,47 @@
+$title-color: #262626;
+$span-color: #E3ADB1;
+
+.about-title {
+    margin-bottom: 5%;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    color: $title-color;
+    line-height: 130%;
+}
+
+
+.about-description {
+    line-height: 170%;
+    margin-top: 2%;
+
+    span {
+        font-weight: 400;
+        color: $span-color;
+    }
+
+}
+
+.last-paragraph {
+    margin-bottom: 8%;
+
+    @media (max-width: 600px) { 
+        margin-bottom: 0;
+     }
+}
+
+
+.img-about {
+    width: 18rem;
+    object-fit: cover;
+
+    @media (max-width: 600px) { 
+       margin-bottom: 30%;
+       margin-left: 25%;
+    }
+
+    @media (max-width: 800px) { 
+        width: 10rem;
+     }
+
+}

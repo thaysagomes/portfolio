@@ -5,6 +5,7 @@ import mainhas from '../../assets/mainhas.svg';
 import fem from '../../assets/fem.svg';
 import illustration from '../../assets/illustration.svg';
 import frontloops from '../../assets/frontloops.svg';
+import gama from '../../assets/gama.svg';
 
 export default class Home extends Component {
   render() {
@@ -36,13 +37,13 @@ export default class Home extends Component {
             </div>
           </a>
 
-          <a href="/filmow">
+          <a href="/gama">
             <div className="container-child design">
-              <img src={visumed} />
+              <img src={gama} />
               <div className="overlay">
                 <div className="description">
                   <h2>UX/UI Design</h2>
-                  <p>Filmow</p>
+                  <p>Gama</p>
                 </div>
               </div>
             </div>
