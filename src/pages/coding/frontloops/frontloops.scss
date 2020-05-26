@@ -139,6 +139,12 @@ $span-color: #6772E5;
                 letter-spacing: 0.075em;
                 cursor: pointer;
 
+                @media (max-width: 600px) { 
+                    width: 8rem;
+                    margin: 2rem 1rem;
+                    font-size: 0.8rem;
+                }
+
                     font: {
                         family: 'Montserrat', sans-serif;
                         size: 1rem;

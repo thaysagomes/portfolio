@@ -2,6 +2,10 @@
     opacity: 0.9;
     display: block;
     margin: 2% auto 4% auto;
+
+    @media (max-width: 600px) { 
+        margin: 8% auto 8% auto;
+    }
 }
 
 .social {
