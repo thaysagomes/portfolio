@@ -89,6 +89,10 @@ export default class Mainhas extends Component {
 
           <hr className="line"/>
 
+          <h3 className="section-title">Próximos passos</h3>
+          <p className="mainhas-process">Realizar testes de usabilidade para coletar os feedbacks sobre o desempenho das usuárias na realização das tarefas, a fim de refinar o protótipo. Em seguida, iterar sob o desenvolvimento do aplicativo e disponibilizá-lo gratuitamente (e inicialmente) na Play Store.</p>
+          <hr className="line"/>
+
           <h3 className="section-title">Hackathon - Conexões Periféricas</h3>
           <p className="mainhas-process">Foi meu primeiro projeto trabalhando com uma perspectiva centrada no UX design, visto que anteriormente, eu apenas gostava de fazer as telas bonitas de uma interface sem pensar nos importantes propósitos. Tivemos que
           fazer questionamentos para focar em uma ideia, coletamos dados para validar, criamos personas, prototipamos nossa solução, pensamos na melhor maneira de repassar as informações para o usuário, e tudo isso foi muito enriquecedor.</p>

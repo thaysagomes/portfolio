@@ -111,6 +111,10 @@ export default class Visumed extends Component {
             </div>
             <hr className="line1"/>
 
+            <h3 className="section-title">Próximos passos</h3>
+              <p className="visumed-process">Realizar testes de usabilidade para coletar os feedbacks sobre o desempenho dos usuários na realização das tarefas, a fim de refinar o protótipo. Em seguida, iterar sob o desenvolvimento do aplicativo e disponibilizá-lo gratuitamente (e inicialmente) na Play Store.</p>
+            <hr className="line1"/>
+
             <h3 className="section-title">Campus Mobile</h3>
             <p className="visumed-process">A Campus foi um momento onde pudemos aprimorar nosso projeto com boas ideias, a partir da mentoria de especialistas
             no assunto. E principalmente, onde pudemos sermos ouvidos e onde colocamos nossa perspectiva para o mundo, buscando promover a qualidade de vida
