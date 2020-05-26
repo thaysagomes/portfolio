@@ -11,82 +11,78 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home">
-        <div className="container">
 
-          <a href="/visumed">
-            <div className="container-child design">
-              <img src={visumed} />
-              <div className="overlay">
-                <div className="description">
-                  <h2>UX/UI Design</h2>
-                  <p>Visumed App</p>
-                </div>
+        <a href="/visumed">
+          <div className="project">
+            <img src={visumed} />
+            <div className="overlay">
+              <div className="description">
+                <h2 className="label">UX/UI Design</h2>
+                <p>Visumed App</p>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a href="/mainhas">
-            <div className="container-child design">
-              <img src={mainhas} />
-              <div className="overlay">
-                <div className="description">
-                  <h2>UX/UI Design</h2>
-                  <p>Mainhas App</p>
-                </div>
+        <a href="/mainhas">
+          <div className="project">
+            <img src={mainhas} />
+            <div className="overlay">
+              <div className="description">
+                <h2 className="label">UX/UI Design</h2>
+                <p>Mainhas App</p>
               </div>
             </div>
-          </a>
-
-          <a href="/gama">
-            <div className="container-child design">
-              <img src={gama} />
-              <div className="overlay">
-                <div className="description">
-                  <h2>UX/UI Design</h2>
-                  <p>Gama</p>
-                </div>
+          </div>
+        </a>
+        <a href="/gama">
+          <div className="project">
+            <img src={gama} />
+            <div className="overlay">
+              <div className="description">
+                <h2>UX/UI Design</h2>
+                <p>Gama academy</p>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a href="/fem">
-            <div className="container-child coding">
-              <img src={fem} />
-              <div className="overlay">
-                <div className="description">
-                  <h2>Front-end</h2>
-                  <p>Frontend mentor</p>
-                </div>
+        <a href="/fem">
+          <div className="project">
+            <img src={fem} />
+            <div className="overlay">
+              <div className="description">
+                <h2>Front-end</h2>
+                <p>Frontend mentor</p>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a href="/frontloops">
-            <div className="container-child frontloops">
-              <img src={frontloops} />
-              <div className="overlay">
-                <div className="description">
-                  <h2>Front-end</h2>
-                  <p>Frontloops</p>
-                </div>
+        <a href="/frontloops">
+          <div className="project">
+            <img src={frontloops} />
+            <div className="overlay">
+              <div className="description">
+                <h2 className="label">Front-end</h2>
+                <p>Frontloops</p>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a href="/illustration">
-            <div className="container-child design">
-              <img src={illustration} />
-              <div className="overlay">
-                <div className="description">
-                  <h2>Ilustração</h2>
-                </div>
+        <a href="/illustration">
+          <div className="project">
+            <img src={illustration} />
+            <div className="overlay">
+              <div className="description">
+                <h2 className="label">Ilustração</h2>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-        </div>
-
-      </div>  
+      </div>
     )
   }
 }
