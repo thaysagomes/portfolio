@@ -3,7 +3,7 @@ import './illustration.scss';
 import illustration1 from '../../assets/illustration1.png';
 import illustration2 from '../../assets/illustration2.png';
 import illustration3 from '../../assets/illustration3.png';
-
+import illustration4 from '../../assets/illustration4.png';
 
 export default class Illustration extends Component {
   render() {
@@ -24,6 +24,11 @@ export default class Illustration extends Component {
           </div>
 
           <div className="process">
+
+          <hr className="line" />
+            <h3 className="challenge-title">Enjoy the Silence</h3>
+            <img className="challenge" src={illustration4} />
+            <p className="illustration-description">Vetorização de imagem e criação a partir de referências.</p>
 
             <hr className="line" />
             <h3 className="challenge-title">Basic Girl</h3>
