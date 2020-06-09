@@ -8,6 +8,10 @@ import modal from '../../../assets/modal.png';
 import stories from '../../../assets/stories.svg';
 import feed from '../../../assets/instagram-thatiana.png';
 import lnkdin from '../../../assets/lnkdin.png';
+import voluntarios from '../../../assets/voluntarios.png';
+import onboarding from '../../../assets/farmapp-onboarding.svg';
+import functionalities from '../../../assets/farmapp-functionalities.svg';
+import functionalities2 from '../../../assets/farmapp-functionalities2.svg';
 
 export default class Gama extends Component {
   render() {
@@ -60,6 +64,29 @@ export default class Gama extends Component {
             <a href="https://www.figma.com/proto/hnpuYhmUX85JgbiVWzhbQQ/Novo-Humano-(Copy)?node-id=115%3A3&scaling=min-zoom" target="_blank"><p className="gama-description context"><span>Clique aqui para ler o relatório completo</span>.</p></a>
             <div className="source">
               <a href="https://www.onovohumano.com.br/" target="_blank"><button className="website">Ver online</button></a>
+            </div>
+            <hr className="line" />
+
+            <h3 className="challenge-title">Voluntários digitais</h3>
+            <p className="gama-description context">O objetivo era ajudar uma ONG com presença digital e/ou digitalização de seus processos, baseada em uma demanda real. Sendo assim, escolhemos o Instituto SE7E e fizemos uma Landing Page para captar voluntários que pudessem ajudar na formação de pessoas, dando aulas online.</p>
+              <p className="challenge-title context">Landing Page</p>
+            <img className="challenge" src={voluntarios} alt="Landing Page"/>
+            <a href="https://drive.google.com/file/d/1LR4_s7JXOMkhztfeW7QxvErqCHvwTZFb/view" target="_blank"><p className="gama-description context"><span>Clique aqui para ler o relatório completo</span>.</p></a>
+            <hr className="line" />
+
+            <h3 className="challenge-title">Show me the Startup</h3>
+            <p className="gama-description context"></p>
+              <p className="gama-description context">O último desafio foi criar uma startup com um produto voltado ao mercado digital. Pensamos em um aplicativo para gerenciar informações referentes à
+            medicamentos de uso contínuo, dando
+            assistência às pessoas através de uma interface
+            simples e intuitiva.</p>
+            <p className="challenge-title context">Farmapill</p>
+            <img className="challenge" src={onboarding} alt="Farmapill"/>
+            <img className="challenge" src={functionalities} alt="Farmapill"/>
+            <img className="challenge" src={functionalities2} alt="Farmapill"/>
+            <a href="https://drive.google.com/file/d/1orAuaaZT6RKKs8mYh6n2bcr5ISPqgIMs/view" target="_blank"><p className="gama-description context"><span>Clique aqui para ler o relatório completo</span>.</p></a>
+            <div className="source">
+              <a href="https://farmapill.netlify.app/" target="_blank"><button className="website">Ver online</button></a>
             </div>
             <hr className="line" />
 
